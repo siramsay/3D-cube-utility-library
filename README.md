@@ -1,4 +1,13 @@
-# Boiler Plate 
+# 3D Cube Utility Library
+This is an experimental but fully usable 3D cube utility library. 
+
+You can create cubes easily without the need to create endless lines of code to size each cube. The utility CSS file does all 
+the work for you. 
+
+
+
+## Boiler Plate 
+This project uses my base boiler plate.
 
 ## HTML
 ### Elements Included
