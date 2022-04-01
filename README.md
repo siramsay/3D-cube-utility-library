@@ -9,8 +9,8 @@ Check it out here https://designkojo.com/3D-cube-utility-library/
 ## The cube
 The cube is designed differently than what is typically used. It use 3 inner divs that consist of 2 faces each. This was done so that there was no need to use a Z dimension. Why no Z dimension I here you ask? That is because Z requires a unit such as px, you can't use % on the Z dimenstion as it is technically infinite. 
 
-## How do it work?
-Instructions to come but have a look at the style.css and the HTML and copy the a cube and adjust the CSS. The utility CSS then works out all the dimension for you. 
+## How does it work?
+Instructions to come but have a look at the style.css and the HTML and copy a cube and adjust the CSS. The utility CSS then works out all the dimension for you. 
 
 ## Boiler Plate 
 This project uses my base boiler plate. This is available from https://github.com/siramsay/bare-bones-boiler-plate
