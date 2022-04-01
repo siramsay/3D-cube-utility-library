@@ -7,7 +7,7 @@ the work for you.
 
 
 ## Boiler Plate 
-This project uses my base boiler plate.
+This project uses my base boiler plate. This is available from https://github.com/siramsay/bare-bones-boiler-plate
 
 ## HTML
 ### Elements Included
