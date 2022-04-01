@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- normalize CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+  <link rel="stylesheet" type="text/css" href="3d-cube-utility.css">
+
+  <link rel="stylesheet" href="style.css">
+  <title>My New Project</title>
+
+</head>
+
+<body>
+
+<main>
+
+  <!-- Cube w/ Height & Depth -->
+  <div class="cube lala-cube depth-lala">
+    <div class="face-wrapper cube-height f1">
+      <div class="inner inner--face-1 face-1"></div>
+      <div class="inner inner--face-3 face-3"></div>
+    </div>
+    <div class="face-wrapper cube-height f2">
+      <div class="inner inner--face-2 face-2"></div>
+      <div class="inner inner--face-4 face-4"></div>
+    </div>
+    <div class="face-wrapper top-bottom">
+      <div class="inner top cube-height-top"></div>
+      <div class="inner bottom cube-height-bottom"></div>
+    </div>
+  </div>
+
+  <div class="cube haha-cube depth-haha">
+    <div class="face-wrapper cube-height f1">
+      <div class="inner inner--face-1 face-1"></div>
+      <div class="inner inner--face-3 face-3"></div>
+    </div>
+    <div class="face-wrapper cube-height f2">
+      <div class="inner inner--face-2 face-2"></div>
+      <div class="inner inner--face-4 face-4"></div>
+    </div>
+    <div class="face-wrapper top-bottom">
+      <div class="inner top cube-height-top"></div>
+      <div class="inner bottom cube-height-bottom"></div>
+    </div>
+  </div>
+
+  <div class="cube zaza-cube depth-zaza">
+    <div class="face-wrapper cube-height f1">
+      <div class="inner inner--face-1 face-1"></div>
+      <div class="inner inner--face-3 face-3"></div>
+    </div>
+    <div class="face-wrapper cube-height f2">
+      <div class="inner inner--face-2 face-2"></div>
+      <div class="inner inner--face-4 face-4"></div>
+    </div>
+    <div class="face-wrapper top-bottom">
+      <div class="inner top cube-height-top"></div>
+      <div class="inner bottom cube-height-bottom"></div>
+    </div>
+  </div>
+
+</main>
+
+
+
+</body>
+<script src="action.js"></script>
+<!--
+  TLDR: scripts should be asynchronous or deferred until after the first render.
+  https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup
+  https://developers.google.com/speed/docs/insights/BlockingJS Put small inline script is necessary
+ -->
+</html>
+
+
+
