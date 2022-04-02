@@ -30,7 +30,7 @@ Instructions to come but have a look at the style.css and the HTML and copy a cu
 }
 ```
 
-Change the classes `lala-cube` `depth-lala` to match the CSS
+Change the classes `lala-cube` `depth-lala` to match the CSS.
 ```
   <!-- Cube w/ Height & Depth -->
   <div class="cube lala-cube depth-lala">
