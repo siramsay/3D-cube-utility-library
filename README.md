@@ -12,6 +12,24 @@ The cube is designed differently than what is typically used. It use 3 inner div
 ## How does it work?
 Instructions to come but have a look at the style.css and the HTML and copy a cube and adjust the CSS. The utility CSS then works out all the dimension for you. 
 
+```
+/* lala or should I say dada!*/
+/* Set a outer size for the cube */
+.lala-cube {
+  --width: 100px;
+  transform: translateX(-150px) translateY(0) translateZ(0) rotateX(0) rotateY(0);
+}
+/* Adjust the height and depth as a percent on the width */
+[class$="lala"] {
+  --height: 50%;
+  --depth: 130;
+}
+[class$="lala"] .inner {
+  /* Larger borders px and em doesn't work*/
+  border: .25em inset blue;
+}
+```
+
 ## Boiler Plate 
 This project uses my base boiler plate. This is available from https://github.com/siramsay/bare-bones-boiler-plate
 
