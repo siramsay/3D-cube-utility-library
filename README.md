@@ -1,5 +1,5 @@
 # 3D Cube Utility Library
-This is an experimental but fully usable 3D cube utility library. 
+This is an experimental but fully usable 3D cube utility library. It is 100% pure CSS. No pre-processor, No JavaScript.
 
 You can create cubes easily without the need to create endless lines of code to size each cube. The utility CSS file does all 
 the work for you. 
@@ -29,6 +29,27 @@ Instructions to come but have a look at the style.css and the HTML and copy a cu
   border: .25em inset blue;
 }
 ```
+
+Change the classes `lala-cube` `depth-lala` to match the CSS
+```
+  <!-- Cube w/ Height & Depth -->
+  <div class="cube lala-cube depth-lala">
+    <div class="face-wrapper cube-height f1">
+      <div class="inner inner--face-1 face-1"></div>
+      <div class="inner inner--face-3 face-3"></div>
+    </div>
+    <div class="face-wrapper cube-height f2">
+      <div class="inner inner--face-2 face-2"></div>
+      <div class="inner inner--face-4 face-4"></div>
+    </div>
+    <div class="face-wrapper top-bottom">
+      <div class="inner top cube-height-top"></div>
+      <div class="inner bottom cube-height-bottom"></div>
+    </div>
+  </div>
+```
+Everything inside the `<div class="cube lala-cube depth-lala"> </div>` doesn't change so could use JavaScript to add it dynamically. JavaScript isn't needed for the utility library to work, it is 100% pure CSS. 
+
 
 ## Boiler Plate 
 This project uses my base boiler plate. This is available from https://github.com/siramsay/bare-bones-boiler-plate
